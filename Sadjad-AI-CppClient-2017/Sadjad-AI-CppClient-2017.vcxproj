@@ -130,14 +130,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Reference Include="EngineIoClientDotNet">
+      <HintPath>..\..\..\C#\Sadjad-AI-CppClient-2017-ClassLibrary\Sadjad-AI-CppClient-2017-ClassLibrary\bin\Debug\EngineIoClientDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\C#\Sadjad-AI-CppClient-2017-ClassLibrary\Sadjad-AI-CppClient-2017-ClassLibrary\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sadjad-AI-CppClient-2017-ClassLibrary">
+      <HintPath>..\..\..\C#\Sadjad-AI-CppClient-2017-ClassLibrary\Sadjad-AI-CppClient-2017-ClassLibrary\bin\Debug\Sadjad-AI-CppClient-2017-ClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SocketIoClientDotNet">
+      <HintPath>..\..\..\C#\Sadjad-AI-CppClient-2017-ClassLibrary\Sadjad-AI-CppClient-2017-ClassLibrary\bin\Debug\SocketIoClientDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>..\..\..\C#\Sadjad-AI-CppClient-2017-ClassLibrary\Sadjad-AI-CppClient-2017-ClassLibrary\bin\Debug\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WebSocket4Net">
+      <HintPath>..\..\..\C#\Sadjad-AI-CppClient-2017-ClassLibrary\Sadjad-AI-CppClient-2017-ClassLibrary\bin\Debug\WebSocket4Net.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ai.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
@@ -145,6 +164,7 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ai.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="Sadjad-AI-CppClient-2017.cpp" />
     <ClCompile Include="stdafx.cpp">
