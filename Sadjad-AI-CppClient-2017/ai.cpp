@@ -6,7 +6,7 @@ using namespace System;
 //Change Server Address and token in Sadjad-AI-CppClient-2017.cpp
 //You can use .net framework 4.5.2 in your project
 
-void doTurn(int* index, Object^ Data) 
+void doTurn(int* index, Board *board) 
 {
 
 	Random^ rnd = gcnew Random();

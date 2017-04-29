@@ -157,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ai.h" />
+    <ClInclude Include="model.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
@@ -166,6 +167,7 @@
   <ItemGroup>
     <ClCompile Include="ai.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="model.cpp" />
     <ClCompile Include="Sadjad-AI-CppClient-2017.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
